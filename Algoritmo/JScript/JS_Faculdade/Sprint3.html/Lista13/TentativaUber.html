@@ -138,7 +138,7 @@
                             })
 
                     })
-                    .catch(function (Error2){
+                    .catch(function (Error2) {
 
                         console.log("Houve um erro no até");
                         console.log("ERROR 2");
@@ -150,36 +150,35 @@
         }
     }
 
-    function Calcular(){
+    function Calcular() {
 
-    Cidade = input_Cidade.value;
-    Cidade2 = input_Cidade2.value;
+        Cidade = input_Cidade.value;
+        Cidade2 = input_Cidade2.value;
 
-            // https://www.google.com.br/maps/dir/R.+Natal,+240+-+Vila+Sao+Jose,+Itaquaquecetuba+-+SP,+08573-150,+Brasil/Consola%C3%A7%C3%A3o,+S%C3%A3o+Paulo+-+SP,+01414-001/@-23.5086373,-46.5805511,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x94ce7b599b9711ad:0xc47c7d79a463e551!2m2!1d-46.3508121!2d-23.4917263!1m5!1m1!1s0x94ce59d30dc9a98b:0xaafb65a6d24da162!2m2!1d-46.6592186!2d-23.5557071?hl=pt-BR&entry=ttu
-        fetch(`https://www.distanciaentreascidades.com.br/distancia-de-${Cidade}-ate-${Cidade2}`)
-        
-        .then(function(Resposta){
+        fetch(`https://www.rotamapas.com.br/distancia-entre-${Cidade}-e-${Cidade2}`)
 
-            console.log("Resposta");
-            console.log(Resposta);
+            .then(function (Resposta) {
 
-            Resposta.json()
-            .then(function (RespostaFormatada){
+                console.log("Resposta");
+                console.log(Resposta);
 
-                console.log('Resposta Formatada');
-                console.log(RespostaFormatada);
+                Resposta.json()
+                    .then(function (RespostaFormatada) {
 
-                div_mensagem.innerHTML = RespostaFormatada;
+                        console.log('Resposta Formatada');
+                        console.log(RespostaFormatada);
+
+                        div_mensagem.innerHTML = RespostaFormatada;
+
+                    })
+
 
             })
+            .catch(function (Error3) {
 
-            
-        })
-        .catch(function(Error3){
-
-            console.log("Houve um erro ao calcular as distâncias");
-            console.log("Error 3");
-            console.log(Error3);
-        })
+                console.log("Houve um erro ao calcular as distâncias");
+                console.log("Error 3");
+                console.log(Error3);
+            })
     }
 </script>
