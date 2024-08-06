@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf292bb9-ed1e-4a9b-95b0-7d70228f3878" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Arq.comp/dat-acqu-ino" beforeDir="false" afterPath="$PROJECT_DIR$/Arq.comp/dat-acqu-ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arq.comp/dat-acqu-ino/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Arq.comp/dat-acqu-ino/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arq.comp/dat-acqu-ino/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Arq.comp/dat-acqu-ino/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz/.env.dev" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz/.env.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/aguarde-orange.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/aguarde-pink.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/aguarde-pink2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/aguarde-pink3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/circle-loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/icon/favicon2.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/icon/favicon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/av1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/av2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/av3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/av4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/av5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/banner-fundo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/bg-jelly-fish-para-home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/bg-jelly-fish-para_outras_pags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/growth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/growth_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/imagem-apoio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/lightbulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/lightbulb_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/missao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/pessoa1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/pessoa2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/pessoa3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/planet-earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/planet-earth_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/side-img-contato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/assets/imgs/visao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/cadastro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/dashboard/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/dashboard/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/dashboard/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/public/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/src/controllers/usuarioController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/src/controllers/usuarioController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/src/models/usuarioModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa_e_inovação/web-data-viz1/src/models/usuarioModel.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EduardoMiyasaki"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EduardoMiyasaki/Sptech.git",
+    "accountId": "73283cf7-6c3d-4899-8cdd-c4645c20c877"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2kFHDFiEYGTzQX5U2dnquFiCVBe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/duduk/OneDrive/Documentos/Sptech"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf292bb9-ed1e-4a9b-95b0-7d70228f3878" name="Changes" comment="" />
+      <created>1722872282810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722872282810</updated>
+    </task>
+    <servers />
+  </component>
+</project>
