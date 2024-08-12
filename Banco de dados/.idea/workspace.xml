@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70c73ee7-b74a-4e38-b740-65c1d4932c85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Arq.comp/dat-acqu-ino" beforeDir="false" afterPath="$PROJECT_DIR$/../Arq.comp/dat-acqu-ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de progamação_Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Linguagem de progamação_Kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de progamação_Kotlin/heranca-aluno-pessoa/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Linguagem de progamação_Kotlin/heranca-aluno-pessoa/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de progamação_Kotlin/heranca-aluno-pessoa/src/main/kotlin/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Linguagem de progamação_Kotlin/heranca-aluno-pessoa/src/main/kotlin/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pesquisa_e_inovação/web-data-viz" beforeDir="false" afterPath="$PROJECT_DIR$/../Pesquisa_e_inovação/web-data-viz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pesquisa_e_inovação/web-data-viz1" beforeDir="false" afterPath="$PROJECT_DIR$/../Pesquisa_e_inovação/web-data-viz1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2kYkm5kX27ofRq8HglzP8ZGGdlG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/duduk/OneDrive/Documentos/Sptech/Linguagem de progamação_Kotlin"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70c73ee7-b74a-4e38-b740-65c1d4932c85" name="Changes" comment="" />
+      <created>1723468053841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723468053841</updated>
+    </task>
+    <servers />
+  </component>
+</project>
