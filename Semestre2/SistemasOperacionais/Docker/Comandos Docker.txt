@@ -1,0 +1,31 @@
+Comandos Docker
+
+Docker ps = para saber os containers que estão rodando na sua máquina
+
+docker run = cria um novo container a partir de uma imagem
+
+Docker ps -a = lista todos os container criados
+
+Docker start = inicia a execução de um container especifico
+
+Docker stop = para a execução de um container especifico 
+
+Docker exec = executa todos os comandos de um container especifico
+
+Docker rm = remove um container especifico
+
+Docker run ubuntu = cria um container com a imagem do ubuntu
+
+Porém ao executar esse comando essa instancia/container desliga 
+
+mas ao utilizar
+
+Docker run -it ubuntu bash
+
+Você continua no container do ubuntu
+
+por conta que você quer iniciar o sistema de bash do ubuntu ou seja o terminal
+
+deixando assim o container ativo pois tem um processo executando
+
+-it = deixando interativo

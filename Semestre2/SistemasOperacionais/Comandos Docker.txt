@@ -1,0 +1,77 @@
+Comandos Docker
+
+Docker ps = para saber os containers que estão rodando na sua máquina
+
+docker run = cria um novo container a partir de uma imagem
+
+Docker ps -a = lista todos os container criados
+
+Docker start = inicia a execução de um container especifico
+
+Docker stop = para a execução de um container especifico 
+
+Docker exec = executa todos os comandos de um container especifico
+
+Docker rm = remove um container especifico
+
+Docker run ubuntu = cria um container com a imagem do ubuntu
+
+Porém ao executar esse comando essa instancia/container desliga 
+
+mas ao utilizar
+
+Docker run -it ubuntu bash
+
+Você continua no container do ubuntu
+
+por conta que você quer iniciar o sistema de bash do ubuntu ou seja o terminal
+
+deixando assim o container ativo pois tem um processo executando
+
+-it = deixando interativo
+
+Docker build para gerar imagens a partir de um Docker file
+
+Docker run -P(maisculo) nome da imagem
+
+Gera um container com uma porta que o container gera para mim poder acessar ele
+
+Docker run -p(minusculo)8080:8080 nome da imagem 
+
+
+Dando deploy desse container numa instancia EC2
+
+Primeiramente você entra na sua instancia Ec2 pelo protocolo SSH
+
+Após isso você faz as atualizações e updates nessa instancia
+
+sudo apt upgrade && sudo apt update
+
+instala uns pré requisitos com o comando
+
+sudo apt-get install curl apt-transport-https ca-certificates software-properties-common
+
+adiciona os repositórios do Docker com o comando
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+sudo apt update
+
+apt-cache policy docker-ce
+
+instalando o Docker 
+sudo apt install docker-ce
+
+agora você tem que dar um 'push' para o Docker hub para poder acessar na EC2
+
+no terminal do dockerFile
+
+Cria um token para acessar sua conta
+
+você faz o login no seu dockerHub
+
+e depois cria um repositório no dockerHub
+
+Docker build --platform Linux/amd64 -t nomedoUsuario/nomedaImagem

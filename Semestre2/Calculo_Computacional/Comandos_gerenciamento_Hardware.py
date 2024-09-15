@@ -1,39 +1,37 @@
-Python 3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
 import psutil
 
 psutil.cpu_times()
-scputimes(user=37424.109375, system=33490.859375, idle=2391452.390625, interrupt=2828.671875, dpc=1191.296875)
- psutil.cpu_percent(interval=1)
- 
-SyntaxError: unexpected indent
+#scputimes(user=37424.109375, system=33490.859375, idle=2391452.390625, interrupt=2828.671875, dpc=1191.296875)
 psutil.cpu_percent(interval=1)
-0.1
+ 
+
+psutil.cpu_percent(interval=1)
+#0.1
 
 psutil.cpu_percent(interval=None)
-0.6
-psutil.cpu_percent(interval=1, percpu=True)
-[0.0, 4.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-psutil.cpu_count()
-12
+30.6
+print(psutil.cpu_percent(interval=1, percpu=True))
+#[0.0, 4.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+print(psutil.cpu_count())
+#12
 psutil.cpu_count(logical=False)
 
-10
+#10
 len(psutil.Process().cpu_affinity())
-12
+#12
 psutil.cpu_stats()
-scpustats(ctx_switches=3586622780, interrupts=1251777277, soft_interrupts=0, syscalls=4027152930)
+#scpustats(ctx_switches=3586622780, interrupts=1251777277, soft_interrupts=0, syscalls=4027152930)
 psutil.cpu_freq()
-scpufreq(current=1300.0, min=0.0, max=1300.0)
+#scpufreq(current=1300.0, min=0.0, max=1300.0)
 psutil.cpu_freq(percpu=True)
-[scpufreq(current=1300.0, min=0.0, max=1300.0)]
+#$[scpufreq(current=1300.0, min=0.0, max=1300.0)]
 mem = psutil.virtual_memory()
-mem
-svmem(total=16849293312, available=8397074432, percent=50.2, used=8452218880, free=8397074432)
+print(mem)
+#svmem(total=16849293312, available=8397074432, percent=50.2, used=8452218880, free=8397074432)
 
 psutil.swap_memory()
-sswap(total=6979321856, used=160440320, free=6818881536, percent=2.3, sin=0, sout=0)
-
+#sswap(total=6979321856, used=160440320, free=6818881536, percent=2.3, sin=0, sout=0)
+"""
 = RESTART: C:/Users/duduk/AppData/Local/Programs/Python/Python312/DesafioConjunto.py
 <class 'set'>
 
@@ -208,4 +206,4 @@ False
 False
 False
 False
-{'Engie', 'Randon', 'Gerdau', 'Itaúsa', 'Vivo', 'Minerva', 'Sanepar', 'BB Distribuidora', 'CPFL', 'Banrisul'}
+{'Engie', 'Randon', 'Gerdau', 'Itaúsa', 'Vivo', 'Minerva', 'Sanepar', 'BB Distribuidora', 'CPFL', 'Banrisul'}"""
