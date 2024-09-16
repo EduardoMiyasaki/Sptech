@@ -1,12 +1,11 @@
 fun main(){
 
-
     val cidade1 = Cidade();
     val estado1 = Estado();
 
     cidade1.nome = "Itaquaquecetuba"
 
-    estado1.nome = "Bahia"
+    estado1.setarNome("Ba")
     estado1.populacao = 7_000_000
     estado1.cidade = cidade1
 

@@ -35,4 +35,8 @@ class Estado {
         }
 
     lateinit var cidade: Cidade
+
+    fun setarNome(valor: String) {
+        nome = valor
+    }
 }
