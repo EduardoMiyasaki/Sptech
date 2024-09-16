@@ -5,8 +5,8 @@ fun main(){
 
     cidade1.nome = "Itaquaquecetuba"
 
-    estado1.setarNome("Ba")
-    estado1.populacao = 7_000_000
+    estado1.setarNome("São Paulo")
+    estado1.populacao = 17_000_000
     estado1.cidade = cidade1
 
     println("Nome do Estado: ${estado1.nome}")

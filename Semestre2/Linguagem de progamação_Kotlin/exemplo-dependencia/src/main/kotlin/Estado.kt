@@ -5,7 +5,8 @@ class Estado {
             if (field.isBlank()) {
                 return "Valor não encontrado"
             }
-            return field.uppercase()
+           // return field.uppercase()
+            return field
         }
         set(value) {
             if (value.length >= 3) {
@@ -26,7 +27,8 @@ class Estado {
             if (field.isBlank()) {
                 return "Valor não encontrado"
             }
-            return field.uppercase()
+            // return field.uppercase()
+            return field
         }
         set(value) {
             if (value.length == 2) {

@@ -1,4 +1,4 @@
-class Cidade() {
+class Cidade{
 
     var nome: String = ""
         // get() = field.uppercase() // exemplo deixando em maiusculo
@@ -6,9 +6,9 @@ class Cidade() {
             if (field.isBlank()) {
                 return "Não informado"
             }
-            return field.uppercase();
+            // return field.uppercase();
+            return field
         }
-
         set(value) {
             if (value.length >= 3) {
                 field = value
