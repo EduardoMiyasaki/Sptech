@@ -39,6 +39,8 @@ Gera um container com uma porta que o container gera para mim poder acessar ele
 Docker run -p(minusculo)8080:8080 nome da imagem 
 
 
+
+
 Dando deploy desse container numa instancia EC2
 
 Primeiramente você entra na sua instancia Ec2 pelo protocolo SSH
@@ -74,4 +76,6 @@ você faz o login no seu dockerHub
 
 e depois cria um repositório no dockerHub
 
-Docker build --platform Linux/amd64 -t nomedoUsuario/nomedaImagem
+Docker build --platform Linux/amd64 -t nomedoUsuario/nomedaImagem:Versão da imagem
+
+sudo Docker run --name nomeDoContainer -p portaDoContainer:PortaqueVocequerFazerAConexao -e MYSQL_ROOT_PASSWORD=senhaDoUsuarioRootdaInstancia -e MYSQL_DATABASE=nomeDoDataBasedaMaquinaLocal -e MYSQL_USER=ipPublicodaMaquinalocal -e MYSQL_PASSWORD=senhaDoUsuarioLocal -d mysql:versão do mysql
