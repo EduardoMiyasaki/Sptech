@@ -20,7 +20,7 @@ def graph(a,b):
     y = formula(a,b,x)
     plt.scatter(qtdComida,hiperativo)
     plt.plot(x,y)
-   # plt.xticks(np.arange(5, 40, step = 5))
+    # Se comentar o plot aparece apenas os dados e não a linha de regressão linear
     plt.xlabel('Quantidade de comida')
     plt.ylabel('Hiperatividade [%]')
     plt.title('Nivel de hiperatividade por comida')
@@ -34,6 +34,9 @@ graph(a, b)
 
 print(f'eq. da reta: y = {a:.2f}x + {b:.2f}')
 # Trocando o x por 65 da o resultado de 11,93
+
+hiperativade65 = 0.16 * 65 + 1.53
+print(f'Ingerindo 65g de comida o total de hiperatividade é {hiperativade65:.2f}')
 
 # Discuta os valores encontrados e a precisão da reta construída
 
