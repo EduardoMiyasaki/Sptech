@@ -1,0 +1,7 @@
+Falas S.O
+
+O que é Docker File = Meio utilizado para criar nossa própria imagem, ou seja ,serve como receita para construir um container, permitindo criar um ambiente personalizado e próprio para seu projeto pessoal ou empresarial
+
+Docker RUN = Busque a imagem e criar um container a partir dela
+
+Quando se utiliza esse comando ou Docker pull ele busca no Docker hub e baixa ela e essa imagem foi gerada a partir de um Docker File

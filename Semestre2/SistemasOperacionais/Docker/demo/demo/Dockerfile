@@ -1,3 +1,4 @@
+# Essa imagem do maven é a imagem base para criação de um container
 FROM maven:3.8.4-jdk-8 as build
 
 # Trazendo todos os arquivos da aplicação
@@ -14,10 +15,10 @@ WORKDIR /app
 # Instalando as dependencias do projeto
 RUN mvn clean install
 
+# Estamos utilizando essa imagem para rodar uma aplicação java ou kotlin
 FROM openjdk:8-jre-alpine
 
-# Vai dar erro por que não achei o jar dessa aplicação lixo
-COPY --from=build /app/target/spring-boot-1-demo-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY --from=build /target/demo-0.0.1-SNAPSHOT.jar /app/app.jar
 
 WORKDIR /app
 
