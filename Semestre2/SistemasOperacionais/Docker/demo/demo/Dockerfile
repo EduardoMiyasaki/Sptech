@@ -1,5 +1,5 @@
 # Essa imagem do maven é a imagem base para criação de um container
-FROM maven:3.8.4-jdk-8 as build
+FROM maven:3.8.4-openjdk-17 AS build
 
 # Trazendo todos os arquivos da aplicação
 
@@ -13,12 +13,13 @@ COPY pom.xml /app
 # Entrando no diretorio app
 WORKDIR /app
 # Instalando as dependencias do projeto
+
 RUN mvn clean install
 
 # Estamos utilizando essa imagem para rodar uma aplicação java ou kotlin
-FROM openjdk:8-jre-alpine
+FROM openjdk:17-alpine
 
-COPY --from=build /target/demo-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY --from=build /app/target/demo-0.0.1-SNAPSHOT.jar /app/app.jar
 
 WORKDIR /app
 

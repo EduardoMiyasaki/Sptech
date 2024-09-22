@@ -15,7 +15,8 @@ print(f'{b:.2f}')
 
 # Use esse resultado para poder estimar quantos automóveis pode-se esperar que uma pessoa
 # inspecione durante o mesmo período de duas horas se ela está
-# trabalhando no posto de inspeção há oito semanas
+# trabalhando no posto de inspeção há oito semanas
+
 
 # CarrosInspecionados = 0.90*8 + 12.45
 # A quantidade de carros inspecionados é de 20
