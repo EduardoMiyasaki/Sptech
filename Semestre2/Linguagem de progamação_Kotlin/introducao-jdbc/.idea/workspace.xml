@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43020468-cf7a-4c9a-8acd-c8175ca51982" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Pesquisa_e_inovação/web-data-viz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pesquisa_e_inovação/web-data-viz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Pesquisa_e_inovação/web-data-viz1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pesquisa_e_inovação/web-data-viz1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Semestre1/Arq.comp/dat-acqu-ino" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semestre1/Arq.comp/dat-acqu-ino" afterDir="false" />
+    <list default="true" id="8203590b-f23a-4f20-93a5-053fc2396863" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Pesquisa_e_inovação/web-data-viz" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Pesquisa_e_inovação/web-data-viz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Pesquisa_e_inovação/web-data-viz1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Pesquisa_e_inovação/web-data-viz1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestre1/Arq.comp/dat-acqu-ino" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestre1/Arq.comp/dat-acqu-ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -37,9 +32,9 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2kFFPKloKDyX8xns3873f7tJCsm" />
+  <component name="ProjectId" id="2mTMIZp9hJy69Ydj7TmXrZQtLJw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,32 +44,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/duduk/OneDrive/Documentos/Java/API_BookStore_Java/jpa/jpa/pom.xml"
+    "last_opened_file_path": "C:/Users/duduk/OneDrive/Documentos/Sptech/Semestre2/Linguagem de progamação_Kotlin/heranca-aluno-pessoa"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Linguagem de progamação_Kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Linguagem de progamação_Kotlin" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43020468-cf7a-4c9a-8acd-c8175ca51982" name="Changes" comment="" />
-      <created>1722871392222</created>
+      <changelist id="8203590b-f23a-4f20-93a5-053fc2396863" name="Changes" comment="" />
+      <created>1727096038243</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722871392222</updated>
+      <updated>1727096038243</updated>
     </task>
     <servers />
   </component>
