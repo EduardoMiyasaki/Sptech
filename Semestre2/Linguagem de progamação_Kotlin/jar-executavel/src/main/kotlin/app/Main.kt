@@ -20,7 +20,8 @@ fun main(){
         1 - Inserir carro
         2 - Buscar por id
         3 - Vender
-        4 - Sair
+        4 - Listar todos os carros 
+        5 - Sair
         
         Informe a sua opção:
      """)
@@ -37,22 +38,43 @@ fun main(){
             }
 
             2 -> {
+
                 print("Informe o ID do carro que você procura:")
-               val carroEncontrado = repository.listarCarroPorId(snNumero.nextInt())
-                println("""
+                var id = snNumero.nextInt()
+                if(repository.existePorId(id)) {
+                    val carroEncontrado = repository.listarCarroPorId(id)
+                    println(
+                        """
                     Nome: ${carroEncontrado.nome}
-                    Vendido ${if (carroEncontrado.vendido) "Sim " else "Não"} 
-                """.trimIndent())
+                    Vendido: ${if (carroEncontrado.vendido) "Sim " else "Não"} 
+                """.trimIndent()
+                    )
+                }
+                else println("ID não existe")
             }
 
             3 -> {
                 println("Informe o ID do carro que você quer vender:")
-                repository.venderCarro(snNumero.nextInt())
-
+                var id = snNumero.nextInt()
+                if(repository.existePorId(id)) {
+                    repository.venderCarro(id)
+                } else println("ID não existe")
             }
 
-            4 -> break
+            4 -> {
+
+               val listaCarros = repository.listarCarros()
+                for(carroDaVez in listaCarros){
+
+                    println("ID do carro: ${carroDaVez.id}")
+                    println("Nome do carro: ${carroDaVez.nome}")
+                    println("Vendido: ${if(carroDaVez.vendido) "Sim" else "Não"}")
+                    println("----------------------------------------------------")
+                }
+            }
+            5 -> break
             else -> break
+
         }
     }
 }

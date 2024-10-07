@@ -43,10 +43,16 @@ class CarroRepository{
     }
 
     fun listarCarroPorId(id : Int): Carro{
-        existePorId(id)
+
         return jdbcTemplate.queryForObject("SELECT * FROM Carro WHERE id = ?",
             BeanPropertyRowMapper(Carro::class.java),
             id)
+    }
+
+    fun listarCarros(): List<Carro>{
+        val listaCarros = jdbcTemplate.query("SELECT * FROM Carro",
+            BeanPropertyRowMapper(Carro::class.java))
+        return listaCarros
     }
 
     fun venderCarro(id: Int) : Boolean{
