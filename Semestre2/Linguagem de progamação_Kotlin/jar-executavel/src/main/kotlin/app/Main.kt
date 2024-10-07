@@ -2,11 +2,14 @@ package app
 
 import dominio.Carro
 import repository.CarroRepository
-import java.text.BreakIterator
 import java.util.Scanner
 
-fun main(){
+open class Main {
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
 
+            // seu código ficará aqui
     val snNumero = Scanner(System.`in`);
     val snTexto = Scanner(System.`in`)
 
@@ -17,7 +20,7 @@ fun main(){
     while(true){
 
      println("""
-        1 - Inserir carro
+         1 - Inserir carro
         2 - Buscar por id
         3 - Vender
         4 - Listar todos os carros 
@@ -57,7 +60,12 @@ fun main(){
                 println("Informe o ID do carro que você quer vender:")
                 var id = snNumero.nextInt()
                 if(repository.existePorId(id)) {
-                    repository.venderCarro(id)
+
+                    val vendido = repository.venderCarro(id)
+                    if(vendido){
+                    println("Carro vendido")
+                    }
+                    else println("Carro não existe")
                 } else println("ID não existe")
             }
 
@@ -78,3 +86,5 @@ fun main(){
         }
     }
 }
+        }
+    }
