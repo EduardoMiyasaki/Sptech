@@ -70,6 +70,8 @@ table(fumante.f)
 
 mean(fumante.n)
 
+summary(fumante.f)
+
 pop_sexo = rep(c(1,2),p)
 sexo.temp = sample(pop_sexo , n)
 sexo = factor(sexo.temp,
