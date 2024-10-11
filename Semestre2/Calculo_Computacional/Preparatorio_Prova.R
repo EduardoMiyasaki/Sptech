@@ -55,6 +55,9 @@ Lucro_Vendedor = data.frame(Produto_Vendedor$Vendedor, Produto_Vendedor$Lucro)
 Lucro_Vendedor
 
 # Resumindo o lucro por vendedor
+# Lucro ~ Vendedor = Lucro é a Variável que será resumida
+# Data eu passo de qual dataframe os dados estão sendo retirados
+# Sum soma os lucro dos vendedores
 Lucro_Vendedor = aggregate(Lucro ~ Vendedor, data = Produto_Vendedor, sum)
 
 # Gráfico de barras com a função base do R
@@ -64,3 +67,78 @@ barplot(Lucro_Vendedor$Lucro,
         ylab = "Lucro", 
         main = "Lucro do Vendedor Por dia")
 
+                              # Exercício 4
+
+numero1 = as.numeric(readline(prompt="Digite um Número:"))
+numero2 = as.numeric(readline(prompt="Digite um Número:"))
+
+maior = ifelse(numero1 > numero2, "numero1 Numero 1 maior que 2", "${numero2} maior que 1")
+maior
+
+                          # Exercício 5
+# Utilizando seed =10, 
+# crie um vetor de valores numéricos com o seguinte código:
+
+set.seed(10)
+
+vetorNumerico <- sample(x = 1:25, size = 800, replace = TRUE)
+# Calcule a frequência em que cada número apare
+
+table(vetorNumerico)
+
+
+                        # Exercício 6
+
+set.seed(50)
+
+vendas <- data.frame(Qtd = sample(x = 28:52, size = 30, replace = TRUE),
+                     DiaMes = seq(from=as.Date("2021-09-01"), to=as.Date("2021-09-30"), by="day"),
+                     DiaSemana = weekdays(seq(from=as.Date("2021-09-01"), to=as.Date("2021-09-30"),
+                                              by="day")))
+
+plot(vendas$DiaMes, vendas$Qtd, main = "Frequência da Qtd de vendas",xlab = "Dia", ylab =
+       "Qtd vendas")
+
+varmes <- max(vendas$Qtd) - min(vendas$Qtd)
+varmes
+
+medven <- round(mean(vendas$Qtd))
+medven
+hist(vendas$Qtd, main = "Frequência da Qtd de vendas",xlab = "Qtd vendas", ylab =
+       "Frequência", col = "red")
+
+                              # Exercício 7
+x1 = c(1, 2, 3, 4)
+x2 = c(2, 5, 8, 11)
+x3 = c('A','B','C','D')
+x4 = c('a', 'b',' c', 'd')
+x5 = c('A', 'C',' E',' G')
+x6 = c(10, 9, 8, 7)
+x7 = c(10, 8, 6, 4)
+x8 = c(2, 2, 2, 2, 5, 5, 5, 5, 8, 8, 8, 8)
+x9 = c(x1, x2, x3, x4, x5, x6, x7, x8)
+
+
+                       
+                               # Exercício 8
+
+# Pegando a data atual
+
+data_atual = Sys.Date()
+data_atual
+# Informando o ano de nascimento
+data_nascimento = as.Date('2006-06-10')
+# Colocando minha idade em anos atráves de semanas e
+# depois divido por 52 pois um ano tem 52 semanas
+
+idade_anos = as.numeric(difftime(data_atual, data_nascimento, units = "weeks")) %/% 52
+idade_anos
+idade_semanas = as.numeric(difftime(data_atual, data_nascimento, units = "weeks"))
+idade_semanas
+
+                                #Exercício 9
+
+#a) Quantas calças (flaire + skinny) foram vendidas? Qual o Faturamento total em calças? 
+qtdCalcaFlaireSkinnyVendidas = 0
+qtdCalcaVendidas = ifelse(vendas_calcas$Produto %in% c("CalçaFlaire", "CalçaSkinny"),qtdCalcaVendidas = qtdCalcaVendida + 1,0 ]
+s
