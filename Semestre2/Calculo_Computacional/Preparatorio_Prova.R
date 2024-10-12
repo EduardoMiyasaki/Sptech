@@ -139,6 +139,95 @@ idade_semanas
                                 #Exercício 9
 
 #a) Quantas calças (flaire + skinny) foram vendidas? Qual o Faturamento total em calças? 
-qtdCalcaFlaireSkinnyVendidas = 0
-qtdCalcaVendidas = ifelse(vendas_calcas$Produto %in% c("CalçaFlaire", "CalçaSkinny"),qtdCalcaVendidas = qtdCalcaVendida + 1,0 ]
-s
+# Não funcionou
+#qtdCalcaVendidas = ifelse(vendas_calcas$Produto %in% c("CalçaFlaire", "CalçaSkinny"),qtdCalcaVendidas = qtdCalcaVendida + 1,0 ]
+# Filtrando a quantidade total de calças vendidas
+
+quantidadeCalcasVendidas = sum(Produto_Vendedor$Quantidade[grepl("Calça", Produto_Vendedor$Produto)])
+
+# Exibindo a quantidade de calças vendidas
+quantidadeCalcasVendidas
+
+# Agrupamento e soma do lucro das calças por vendedor
+FaturamentoCalcas <- ifelse(grep('Calça',Produto_Vendedor$Produto),
+                            Produto_Vendedor$Quantidade * (Precos$Preco_Unitario[Precos$Produto == "Calça"] - Precos$Custo_Unitario[Precos$Produto == "Calça"]),0)
+
+
+# Visualização do faturamento das calças por vendedor
+FaturamentoCalcas
+
+View(Lucro_Vendedor)
+                              
+                                                #Exercício 10
+
+
+set.seed(20)
+
+vendedores <- c("Ana", "Flavia", "Pedro", "Mariana")
+
+# Criando um vetor para os dias (30 dias de vendas para 4 vendedores)
+dias <- rep(1:30, each = length(vendedores))
+
+# Vendedores repetidos para cada dia
+vendedores_repetidos <- rep(vendedores, times = 30)
+
+produtos <- c("calçaFlaire", "calçaSkinny", "vestido", "blusa", "manta", "saia", "casaco", "meia")
+
+# Simulando vendas entre 0 e 5 unidades diárias
+vendas <- sample(0:5, size = length(dias), replace = TRUE)
+
+dados_vendas <- data.frame(
+  Dia = dias,
+  Vendedor = vendedores_repetidos,
+  Vendas = vendas
+)
+
+# Visualizando os dados
+View(dados_vendas)
+                                            # Exercício 11
+
+# Função para calcular somas acumuladas
+soma_acumulada <- function(vetor) {
+  return(cumsum(vetor))
+}
+
+# Exemplo de uso
+x <- c(1, 3, 8, 2, 1, 3)
+resultado <- soma_acumulada(x)
+print(resultado)
+                                    
+                                              # Exercicio 12
+caminho_temperatura ="C:/Users/rodri/Downloads/temperaturas_cidades.csv"
+caminho = file.choose()
+
+temperatura = read.csv(caminho)
+
+head(temperatura)
+
+# Remover linhas com valores ausentes
+temperatura <- na.omit(temperatura)
+
+# Garantir que a coluna Data esteja no formato correto
+temperaturas$Data <- as.Date(temperatura$Data)
+# Filtrar os dados para o último ano
+ultimo_ano <- max(temperatura$Data)
+dados_ultimo_ano <- temperatura
+  filter(format(Data, "%Y") == format(ultimo_ano, "%Y"))
+
+# Calcular a média das temperaturas por cidade
+media_temperaturas <- dados_ultimo_ano %>%
+  group_by(Cidade) %>%
+  summarise(Media_Temperatura = mean(Temperatura, na.rm = TRUE))
+
+# Obter as 5 cidades com as maiores médias de temperatura
+top_5_cidades <- media_temperaturas %>%
+  arrange(desc(Media_Temperatura)) %>%
+  head(5)
+
+# Criar um gráfico
+ggplot(top_5_cidades, aes(x = reorder(Cidade, -Media_Temperatura), y = Media_Temperatura)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  labs(title = "Top 5 Cidades com Maiores Temperaturas Médias",
+       x = "Cidade",
+       y = "Temperatura Média") +
+  theme_minimal()
