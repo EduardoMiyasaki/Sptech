@@ -1,0 +1,4 @@
+Estudo banco de dados
+
+NO ON SEMPRE A PRIMEIRA TABELA SERÁ É REFERENCIADA PELA Fk e a segunda tabela (É A SEGUNDA TABELA) E REFENCIADA PELO ID
+Quando tiver 2 joins o primeiro join segue a regra do primeiro e no segundo join sempre pega o id da primeira tabela e na outra tabela a fk.
