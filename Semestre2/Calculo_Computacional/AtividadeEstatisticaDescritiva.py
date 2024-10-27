@@ -15,17 +15,23 @@ print(f"A mediana de uso da Cpu é {st.median(usoCpu):.2f}")
 print(f"O desvio padrão de uso da Cpu é {st.pstdev(usoCpu):.2f}")
 
 # Pontos que representam o número de usuários
+
+# Matriz que representam os números de usuários primeiro e em seguida
+# Que é constante no caso adicionando o valor 1
+# Intercept
 pontosUsuario = np.array([[10, 1],[25, 1]])
 
 # Pontos de uso da CPU
-
+# De acordo com o número de usuários
 pontosUsoCpu = np.array([20, 45.1])
 
 modelo1 = np.linalg.solve(pontosUsuario, pontosUsoCpu)
-
+# O primeiro valor que sair será a inclinação angular(slope)
+# O segundo será a a inclinação da reta quando o x for 0
+# (coeficiente linear(intercept)
 print(modelo1)
 
-# Formula = usoCpu = M * U + b
+# Formula(usoCpu = M * U + b)
 
 primeiro_dado = pontosUsoCpu[0] = 1.67333333 * 10 + 3.26666667
 print(primeiro_dado)
@@ -45,4 +51,4 @@ interceptacao = np.intersect1d(primeiro_dado, segundo_dado)
 print(f"A interceptação é {interceptacao}")
 
 slope, intercept = np.polyfit(numeroUsuarios,usoCpu,1)
-print(f"A inclinação desse sistema linear é {slope:.2f}")
+print(f"A inclinação angular desse sistema linear é {slope:.2f}")

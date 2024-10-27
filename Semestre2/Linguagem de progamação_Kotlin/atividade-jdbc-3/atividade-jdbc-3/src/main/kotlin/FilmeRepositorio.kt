@@ -32,11 +32,11 @@ class FilmeRepositorio {
     }
 
     fun inserir(filme : Filme) : Boolean{
-      val qtdLinhasAfetadas = jdbcTemplate.update("""
+        val qtdLinhasAfetadas = jdbcTemplate.update("""
            INSERT INTO Filme (nome,genero,anoLancamento,duracao,alugado) VALUES (?,?,?,?,?) 
         """,
-          filme.nome,filme.genero,filme.anoLancamento,filme.duracao,filme.alugado
-      )
+            filme.nome,filme.genero,filme.anoLancamento,filme.duracao,filme.alugado
+        )
         return qtdLinhasAfetadas > 0
     }
 
@@ -47,7 +47,7 @@ class FilmeRepositorio {
     }
 
     fun existePorId(id: Int): Boolean{
-       val qtdLinhasAfetadas =  jdbcTemplate.queryForObject("""
+        val qtdLinhasAfetadas =  jdbcTemplate.queryForObject("""
             SELECT COUNT (*) FROM Filme WHERE id = ?
         """,
             Int::class.java,
@@ -62,9 +62,10 @@ class FilmeRepositorio {
     }
 
     fun atualizarPorId(id: Int , filmeParaAtualizar : Filme): Boolean{
-    val qtdLinhasAfetadas = jdbcTemplate.update("""
+        val qtdLinhasAfetadas = jdbcTemplate.update("""
         UPDATE Filme SET nome = ? , genero = ? , anoLancamento = ? , duracao = ? , alugado = ? WHERE id = ?
-    """,filmeParaAtualizar.nome, filmeParaAtualizar.genero,filmeParaAtualizar.anoLancamento,filmeParaAtualizar.duracao,filmeParaAtualizar.alugado)
+    """,filmeParaAtualizar.nome, filmeParaAtualizar.genero,filmeParaAtualizar.anoLancamento,filmeParaAtualizar.duracao,filmeParaAtualizar.alugado,
+            id)
         return qtdLinhasAfetadas > 0
     }
 
@@ -92,4 +93,6 @@ class FilmeRepositorio {
 
         return alugado > 0
     }
+
+
 }

@@ -155,6 +155,8 @@ print(resultado.summary())
 # casa no bairro dado, em termos de número de quartos e do número de banheiros.
 
 # Formula do preço da casa é precoCasa = 65.4 + 16.7x1 + 11.23x2
+# 65.4 é o preço base da casa(constante)
+# 16.7 é o preço por quarto e 11.23 é o preco por banheiro
 precoCasa = 65.4 + 16.7 * 3 + 11.23 * 1
 print(f'O preço estimado de uma casa com 3 quartos e 1 banheiro nesse bairo é de {precoCasa:.3f} R$')
 
