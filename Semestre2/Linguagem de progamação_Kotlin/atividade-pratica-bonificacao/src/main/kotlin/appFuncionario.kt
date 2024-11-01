@@ -19,10 +19,9 @@ fun main(){
 
     print("Informe o salário do desenvolvedor:");
     desenvolvedor.salario = snNumero.nextDouble()
+    desenvolvedor.projeto = projetoEnum.EM_ANDAMENTO
 
     println("A bonifação do ${gerente.nome}(gerente) vai ser de ${gerente.calcularBonificacao()}")
     println("A bonifação do ${desenvolvedor.nome}(desenvolvedor) vai ser de ${desenvolvedor.calcularBonificacao()}")
-
-
 
 }
