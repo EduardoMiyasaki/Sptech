@@ -1,0 +1,11 @@
+Evento certo = 100% de chance de acontecer
+
+Evento impossível = 0% de acontecer
+
+Evento mutuamente excludentes = eventos dependentes um do outro
+
+
+Evento complementar = Um evento exclui o outro 30% de falher ou seja 70% de não falhar
+
+Evento não mutuamente exclusivos = Probalidade de um evento acontecer + outro evento acontecer - a probabilidade dos dois acontecer
+ 
