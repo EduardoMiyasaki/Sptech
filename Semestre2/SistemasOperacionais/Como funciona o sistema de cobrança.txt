@@ -1,0 +1,50 @@
+Como funciona o sistema de cobrança da AWS?
+
+O tipo de instância é um dos principais fatores para a alteração do preço por conta que é o local onde escolhemos a quantidade de hardware que iremos utilizar nesse projeto
+
+O t2.nano é o que tem o menor preço possível pois vem com configurações menores
+1 CPU e apenas 0.5 GB de memória 
+
+em seguida vem o t2.micro que têm uma leve melhoras possuindo
+1 CPU e 1 GB de memória
+
+e como instância mais cara vem X2gd.12xLarge
+que possui 48 CPU e 768 GB de memória
+
+O Sistema operacional interfe no preço de forma que se você escolher Linux com o t2.micro irá cobrar 0.0116 USD por hora
+enquanto isso se for Windows irá cobrar 0.0162 USD por hora
+
+Outro fator que influencia diretamente é a quantidade de armazenamento em disco
+
+Se você utiliza o SSD de uso geral (gp3) Você irá ter que pagar 0,08 USD/Gb-mês
+
+Se você utiliza o SSD de uso geral (gp2) Você irá ter que pagar 0,10 USD/Gb-mês
+
+Quais são as aplicações de uma instância EC2
+
+Hospedagem de website e aplicações WEB
+
+Servidores
+
+Ambientes de desenvolvimento e teste
+
+Serviços de backup e armazenamento
+
+
+Agora eu vou falar sobre como a Aws cobra por suas instancias
+
+Existem algumas principais fatores sendos eles O sistema Operacional, a quantidade de hardware que você utiliza e a quantidade de volume que você possui
+
+Vou dar um exemplo pra vocês de como seria aproximadamente a cobrança
+
+utilizando o t2.micro e usando Linux a cobrança pelo hardware e sistema operacional Linux seria de 0.116 por hora
+enquanto Windows seria de 0.162
+
+
+
+
+ 
+
+
+
+

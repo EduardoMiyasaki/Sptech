@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5456d673-4490-4c33-b715-7a5c38945fcf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../exercicio-composicao-agregacao/src/main/kotlin/AppLivraria.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicio-composicao-agregacao/src/main/kotlin/Autor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicio-composicao-agregacao/src/main/kotlin/Livro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/classe_abstrata/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/classe_abstrata/AppAnimal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/classe_abstrata/Cachorro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/classe_abstrata/Peixe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/AppJogador.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/Atacante.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/Atirador.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/Esportista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/Gato.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/Goleiro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/InterfaceGato.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/JogadorFutebol.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/Nadador.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../projeto-abstracao-interface/src/main/kotlin/interfaces/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Pesquisa_e_inovação/web-data-viz" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Pesquisa_e_inovação/web-data-viz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Pesquisa_e_inovação/web-data-viz1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Pesquisa_e_inovação/web-data-viz1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semestre1/Arq.comp/dat-acqu-ino" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Semestre1/Arq.comp/dat-acqu-ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EduardoMiyasaki"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EduardoMiyasaki/Sptech.git",
+    "accountId": "73283cf7-6c3d-4899-8cdd-c4645c20c877"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2p1Xx4RGaHwXDxqJpgB52Lasx8v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/duduk/OneDrive/Documentos/Sptech/Semestre2/Linguagem de progamação_Kotlin/atv-agregacao-heranca/atv-agregacao-heranca/pom.xml"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5456d673-4490-4c33-b715-7a5c38945fcf" name="Changes" comment="" />
+      <created>1731934798458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731934798458</updated>
+    </task>
+    <servers />
+  </component>
+</project>

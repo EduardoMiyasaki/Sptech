@@ -1,0 +1,13 @@
+Modelagem Processos - Atividade Gap Analisys
+
+
+possíveis problemas:
+
+na hora de anotar o pedido anotar errado
+o cozinheiro não entender a demanda
+o cozinheiro não identificar os pedidos
+
+Possíveis soluções
+Atendente = Confirmar se o pedido está correto com o cliente
+O cozinheiro antes de fazer o pedido, verificar a comanda se o pedido está correto
+no momento do cozinheiro colocar o pedido no balcão, identificar de alguma forma o que está dentro da embalagem
